@@ -1,0 +1,67 @@
+
+
+
+.portfolio-area{
+
+
+}
+.portfolio-area ul{
+    margin: 50px 5px;
+}
+.portfolio-area ul li a{
+    border: 1px solid #cfcfcf;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.portfolio-area ul li a:hover{
+    background: royalblue;
+    color: white;
+    transition: .03s;
+}
+
+
+
+
+.learn-svg{
+    background:purple;
+    
+}
+
+.upper-svg{
+    background: purple;
+}
+
+.section-title{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+.section-title::before{
+    position: absolute;
+	content: "";
+	width: 110px;
+	height: 1px;
+	background-color: #635CDB;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%) rotate(90deg);
+	        transform: translate(-50%, -50%) rotate(90deg);
+	top: 50%;
+}
+
+
+.section-title::after{
+    position: absolute;
+	content: "";
+	width: 80px;
+	height: 1px;
+	background-color: #635CDB;
+	left: 50%;
+    -webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	bottom: -24px;
+	
+}
+
